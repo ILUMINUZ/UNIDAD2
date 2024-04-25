@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bitacora.css">
+</head>
+
+<body>
+
+    <div class="d-flex justify-content-center">
+        <div class="col-lg-4 col-md-8 col-sm-10 col-xs-12 my-3 r">
+            <div class="container">
+                <form id="forma">
+                    <fieldset>
+                        <!--Datos a rellenar en el formulario-->
+                        <legend class="text-light">Lugares que Visitaras este año</legend>
+                        <label for="disabledTextInput" class="form-label text-light">Elige el lugar que quisieras conocer y conquienes lo harias y determina en que mes lo harias.</label>
+                        <div class="mb-3">
+                            <label for="disabledTextInput" class="form-label text-light">Lugar</label>
+                            <input type="text" id="titulo" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="disabledTextInput" class="form-label text-light">Acompañantes</label>
+                            <input type="text" id="contenido" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="check1" value="true">
+                                <label class="form-check-label text-light" for="check1">
+                                    De Enero a Abril
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="check2" value="true">
+                                <label class="form-check-label text-light" for="check2">
+                                    De Mayo a Agosto
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="check3" value="true">
+                                <label class="form-check-label text-light" for="check3">
+                                    De Septiembre a Diciembre
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center mb-1">
+                            <button type="submit" class="btn btn-outline-light mb-2">Agregar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-3 main">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-sm-1 row-cols-xs-1 g-4" id="row-bita">
+            <div class="col-xs-12 col-sm-12 card2" id="">
+                <div class="card bg-light">
+                    <div class="card-body text-dark">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text "></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item item1" id="item1"></li>
+                        <li class="list-group-item" id="item2"></li>
+                        <li class="list-group-item" id="item3"></li>
+                    </ul>
+                    <div class="col-12 text-center mb-1 btneliminar">
+                        <span onclick="entrarGoogle()" class="btn mb-1 mt-3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bitacora.js"></script>
+    <script src="js/registro.js"></script>
+
+</body>
+
+</html>

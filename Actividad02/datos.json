@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Santa cruz",
+        "body": "El jardín botánico posee más de 500 especies de flora que se encuentran en dos secciones, divididas por el riachuelo Guapilo de la cuenca del río Piraí, cuyas aguas corren en dirección este.",
+        "image":"Santa_cruz.jpg"
+    },
+    {
+        "title": "Cochabamba",
+        "body": "Visitar El Cristo es una tarea que hay que hacer; obtendrás una imagen vívida del contraste urbano, que es la parte más grande de Bolivia, con una vista de 360 ​​grados. ",
+        "image": "cochabamba.jpg"
+    },
+    {
+        "title": "La paz",
+        "body": "Las ruinas de Tiwanaku se encuentran cerca de la orilla sureste del lago Titicaca, a unos 72 km (44 millas) al oeste de La Paz, Bolivia.",
+        "image": "La_paz.jpg"
+    },
+    {
+        "title": "Oruro",
+        "body": "Para “dar vida” a la imponente Virgen del Socavón, de 45,4 metros de altura, se utilizó 1.500 toneladas de piedra, acero y cemento, una capa de resina de poliéster y fibra de vidrio. Este colosal monumento refleja el amor de un pueblo por su patrona.",
+        "image": "Oruro.jpg"
+    },
+    {
+        "title": "Tarija",
+        "body": "Doña Victoria Quiroga más conocida como “Doña Vita” abre las puertas de su casa, construida hace más de 400 años para ofrecer a sus visitantes los mejores platillos y vinos de Tarija.",
+        "image":"Tarija.jpg"
+    },
+    {
+        "title": "Beni",
+        "body": "El Parque el Pantanal es un refugio de fauna silvestre ubicado en la ciudad de la Trinidad. Aquí se encuentran diferentes especies de animales entre ellos: caimanes, capibaras, serpientes, aves, ciervos y demás animales de la zona; los cuales han sido decomisados por las autoridades debido al tráfico y tenencia ilegal.",
+        "image" : "Beni.jpg"
+    }
+]

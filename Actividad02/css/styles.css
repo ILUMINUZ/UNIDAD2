@@ -1,0 +1,12 @@
+body {
+    background-color: #b8ced7;
+}
+
+#map {
+    width: 100%;
+    height: 600px;
+}
+
+h1 {
+    color: #657379;
+}
